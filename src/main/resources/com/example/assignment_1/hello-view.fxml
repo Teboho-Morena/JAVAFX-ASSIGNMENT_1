@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="961.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.assignment_1.FlagController">
+   <children>
+      <HBox alignment="BASELINE_CENTER" layoutX="95.0" layoutY="92.0" prefHeight="41.0" prefWidth="778.0" spacing="50.0">
+         <children>
+            <Button fx:id="RussiaFlag" mnemonicParsing="false" onAction="#RussiaFlag" text="Russia" />
+            <Button fx:id="IndiaFlag" mnemonicParsing="false" onAction="#IndiaFlag" text="India" />
+            <Button fx:id="ArgentinaFlag" mnemonicParsing="false" onAction="#ArgentinaFlag" text="Argentina" />
+            <Button fx:id="CroatiaFlag" mnemonicParsing="false" onAction="#CroatiaFlag" text="Croatia" />
+            <Button fx:id="ElSalvadorFlag" mnemonicParsing="false" onAction="#ElSalvadorFlag" text=" El Salvador" />
+            <Button fx:id="clearButton" mnemonicParsing="false" onAction="#ClearButton" text="Clear" />
+         </children>
+      </HBox>
+      <Rectangle fx:id="TopLayer" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="71.0" layoutX="180.0" layoutY="267.0" stroke="WHITE" strokeType="INSIDE" width="591.0" />
+      <Rectangle fx:id="MiddleLayer" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="71.0" layoutX="180.0" layoutY="338.0" stroke="WHITE" strokeType="INSIDE" width="591.0" />
+      <Rectangle fx:id="BottomLayer" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="71.0" layoutX="180.0" layoutY="410.0" stroke="WHITE" strokeType="INSIDE" width="591.0" />
+   </children>
+</AnchorPane>
